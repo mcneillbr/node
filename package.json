@@ -1,0 +1,9 @@
+{
+    "name": "generics algorithm",
+    "version": "0.0.0.1",
+    "description": "generics algorithm",
+    "main": "index.js",
+    "author": "mcneillbr",
+    "license": "MIT",
+    "private": false
+}
