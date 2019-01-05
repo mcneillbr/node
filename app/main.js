@@ -1,4 +1,3 @@
-
 const enviroment = require('./../environment');
 const express = require('express');
 const app = express();
@@ -9,11 +8,10 @@ app.use('/birds', birds);
 
 app.use('/api', reqTest);
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
+app.get('/', function(req, res) {
+    res.send('Hello World!');
 });
 
-app.listen(enviroment.httpPort, function () {
-  console.log(`Example app listening on port ${enviroment.httpPort}!`);
+app.listen(enviroment.httpPort, function() {
+    console.log(`> Ready on http://localhost:${enviroment.httpPort}, listening on port (${enviroment.httpPort})!`);
 });
-

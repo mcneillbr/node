@@ -1,32 +1,38 @@
 {
-  "name": "node-oauth",
-  "version": "1.0.0",
-  "description": "implementação de oauth em nodejs",
-  "main": "index.js",
-  "dependencies": {
-    "axios": "^0.18.0",
-    "express": "^4.16.4",
-    "lodash": "^4.17.11",
-    "request": "^2.88.0"
-  },
-  "devDependencies": {
-    "dotenv": "^6.1.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mcneillbr/node.git"
-  },
-  "keywords": [
-    "nodejs",
-    "oauth"
-  ],
-  "author": "mcneillbr",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mcneillbr/node/issues"
-  },
-  "homepage": "https://github.com/mcneillbr/node#readme"
+    "name": "node-oauth",
+    "version": "1.0.0",
+    "description": "implementação de oauth em nodejs",
+    "main": "index.js",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "express": "^4.16.4",
+        "lodash": "^4.17.11",
+        "next": "^7.0.2",
+        "react": "^16.7.0",
+        "react-dom": "^16.7.0",
+        "request": "^2.88.0"
+    },
+    "devDependencies": {
+        "dotenv": "^6.1.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mcneillbr/node.git"
+    },
+    "keywords": [
+        "nodejs",
+        "oauth"
+    ],
+    "author": "mcneillbr",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mcneillbr/node/issues"
+    },
+    "homepage": "https://github.com/mcneillbr/node#readme"
 }

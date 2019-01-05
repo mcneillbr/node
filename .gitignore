@@ -65,3 +65,7 @@ package-lock.json
 .vscode/
 #eslint
 .eslintrc.json
+#next
+.next
+/.next
+.next/
