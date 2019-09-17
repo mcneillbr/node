@@ -1,3 +1,26 @@
+/** todo */
+function getObjValue(target, path, fallback = null) {
+    const callList = path.split('.') || [];
+    console.log('callList', callList);
+    if(callList.length <= 0) {
+        return fallback;
+    }
+    const first = callList.splice(0, 1);
+    let acc = target[first];
+    for(const idx in callList) {
+        const key = callList[idx];
+        console.log('for:item', {key, idx, acc, first}, typeof acc);
+        if(typeof acc === 'object' && key in acc) {
+            acc = acc[key];
+        } else  {
+            acc = null;
+            break;
+        }
+        
+    }
+    return acc ? acc : fallback;
+}
+
 /**
  * Verify is value is type number
  * @param {*} value 
